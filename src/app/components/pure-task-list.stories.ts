@@ -15,9 +15,9 @@ export default {
       imports: [CommonModule]
     }),
     componentWrapperDecorator(story =>
-      `<div style="margin: 3em">${story}</div>`),
+      `<div style="margin: 3em">${ story }</div>`),
   ],
-  title: 'PureTaskListComponent',
+  title: 'Pure Task List',
 } as Meta;
 
 const Template: Story<PureTaskListComponent> = args => ({
